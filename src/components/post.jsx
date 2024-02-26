@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Card from "./card";
 import cardData from "./data";
 function Post() {
@@ -8,13 +9,15 @@ function Post() {
         <div className=" lg:px-20 sm:px-10  grid lg:grid-cols-3 gap-8 pb-10 sm:grid-cols-1 md:grid-cols-2">
           {cardData.map(function (card) {
             return (
-              <Card
-                key={card.id}
-                title={card.title}
-                date={card.date}
-                imgSrc={card.imgSrc}
-                discription={card.discription}
-              />
+              <Link to={`/card${card.id}`}>
+                <Card
+                  key={card.id}
+                  title={card.title}
+                  date={card.date}
+                  imgSrc={card.imgSrc}
+                  discription={card.discription}
+                />
+              </Link>
             );
           })}
         </div>

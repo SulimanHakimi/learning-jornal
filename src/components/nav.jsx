@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 // import { Link } from "react-router-dom";
 function Nav() {
   return (
@@ -13,9 +15,13 @@ function Nav() {
             My learning journal
           </h1>
         </div>
-        <ul className="flex gap-8 items-center font-medium sm:gap-5">
-          <li className="cursor-pointer">HOME</li>
-          <li className="cursor-pointer">ABOUT ME</li>
+        <ul className="flex md-gap-7 lg:gap-10 items-center font-medium sm:gap-5">
+          <li className="cursor-pointer">
+            <Link to={"/"}>HOME</Link>
+          </li>
+          <li className="cursor-pointer">
+            <Link to={"/about-me"}>ABOUT ME</Link>
+          </li>
         </ul>
       </div>
     </>
