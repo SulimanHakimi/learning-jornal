@@ -1,6 +1,6 @@
 const cardData = [
     {
-      id: 1,
+      id: 0,
       title: "Blog one",
       date: "JULY 23, 2022",
       imgSrc:
@@ -9,7 +9,7 @@ const cardData = [
         "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     },
     {
-      id: 2,
+      id: 1,
       title: "Blog two",
       date: "JULY 23, 2022",
       imgSrc:
@@ -18,7 +18,7 @@ const cardData = [
         "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     },
     {
-      id: 3,
+      id: 2,
       title: "Blog three",
       date: "JULY 23, 2022",
       imgSrc:
@@ -27,7 +27,7 @@ const cardData = [
         "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     },
     {
-      id: 4,
+      id: 3,
       title: "Blog four",
       date: "JULY 23, 2022",
       imgSrc:
@@ -36,7 +36,7 @@ const cardData = [
         "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     },
     {
-      id: 5,
+      id: 4,
       title: "Blog five",
       date: "JULY 23, 2022",
       imgSrc:
@@ -45,7 +45,7 @@ const cardData = [
         "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
     },
     {
-      id: 6,
+      id: 5,
       title: "Blog six",
       date: "JULY 23, 2022",
       imgSrc:

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Card from "./card";
 import cardData from "./data";
 function Post() {
+
   return (
     <>
       <div className="flex justify-between pt-20 pb-10  gap-6 items-center flex-col">
@@ -9,7 +10,7 @@ function Post() {
         <div className=" lg:px-20 sm:px-10  grid lg:grid-cols-3 gap-8 pb-10 sm:grid-cols-1 md:grid-cols-2">
           {cardData.map(function (card) {
             return (
-              <Link to={`/card${card.id}`}>
+              <Link to={`/card/${card.id}`}>
                 <Card
                   key={card.id}
                   title={card.title}
