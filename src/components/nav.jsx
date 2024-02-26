@@ -15,7 +15,7 @@ function Nav() {
             My learning journal
           </h1>
         </div>
-        <ul className="flex md-gap-7 lg:gap-10 items-center font-medium sm:gap-5">
+        <ul className="flex md:gap-7 lg:gap-10 items-center font-medium sm:gap-3">
           <li className="cursor-pointer">
             <Link to={"/"}>HOME</Link>
           </li>
