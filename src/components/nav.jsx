@@ -1,9 +1,8 @@
 // import { Link } from "react-router-dom";
-
 function Nav() {
   return (
     <>
-      <div className="sm:px-10 sm:text-sm sm:font-bold lg:px-20 h-20 flex justify-between items-center">
+      <div className="sm:px-6 sm:text-sm shadow sm:font-bold lg:px-20 h-20 flex justify-between items-center">
         <div className="flex gap-2 items-center">
           <img
             className="w-10 h-10"
@@ -14,7 +13,7 @@ function Nav() {
             My learning journal
           </h1>
         </div>
-        <ul className="flex gap-8 font-medium sm:gap-5">
+        <ul className="flex gap-8 items-center font-medium sm:gap-5">
           <li className="cursor-pointer">HOME</li>
           <li className="cursor-pointer">ABOUT ME</li>
         </ul>

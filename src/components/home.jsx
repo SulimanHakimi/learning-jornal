@@ -1,7 +1,7 @@
 function Home() {
   return (
     <>
-      <div className="sm:px-10 w-full gap-5 lg:px-20 h-screen pb-32 bg-slate-700 text-slate-50 flex flex-col justify-end items-start">
+      <div className="sm:px-6 w-full sm:gap-2 lg:gap-4 lg:px-20 bg-hero-pattern bg-no-repeat bg-cover bg-center h-screen  pb-32 bg-blend-darken	 text-slate-50 flex flex-col justify-end items-start">
         <span className="font-extralight text-base">JULY 23, 2022</span>
         <h1 className="font-extrabold sm:text-2xl md:text-3xl lg:text-4xl">
           My new journey as a bootcamp student.

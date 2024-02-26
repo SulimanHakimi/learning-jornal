@@ -1,15 +1,10 @@
-import Footer from "./components/footer";
-import Home from "./components/home";
-import Nav from "./components/nav";
-import Post from "./components/post";
+import AboutMe from "./components/pages/aboutMe";
+
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Home />
-      <Post />
-      <Footer />
+      <AboutMe/>
     </div>
   );
 }
