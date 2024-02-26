@@ -21,7 +21,11 @@ function RecentPost() {
           </h1>
           <p>{articale.describetion}</p>
         </div>
-        <img className="w-full h-[500px]" src={`${articale.imgSrc}`} alt="" />
+        <img
+          className="w-full object-center h-[500px]"
+          src={`${articale.imgSrc}`}
+          alt=""
+        />
         <StayComm />
       </div>
       <Footer />
