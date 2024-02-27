@@ -21,9 +21,13 @@ function Post() {
             );
           })}
         </div>
-        <button className="underline font-semibold text-sm dark:text-slate-100">
+
+        <Link
+          to="/admin"
+          className="underline font-semibold text-sm dark:text-slate-100"
+        >
           View More
-        </button>
+        </Link>
       </div>
     </>
   );

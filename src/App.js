@@ -11,10 +11,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route>
-          <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/admin" element={<LoginFigma />} />
             <Route path="/about-me" element={<AboutMe />} />
-            <Route path="/card/:id" element={<RecentPost/>} />
+            <Route path="/card/:id" element={<RecentPost />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
