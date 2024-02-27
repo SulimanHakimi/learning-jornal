@@ -3,7 +3,7 @@ import StayComm from "./stayComm";
 function About() {
   return (
     <>
-      <div className="sm:px-2 lg:px-20 h-fit py-20 gap-10 flex flex-col justify-center items-center">
+      <div className="sm:px-2 lg:px-20 dark:bg-slate-800 dark:text-slate-100 h-fit py-20 gap-10 flex flex-col justify-center items-center">
         <div className="flex items-center sm:justify-center gap-5 lg:px-20 md:flex-nowrap sm:flex-wrap md:px-16 sm:px-10">
           <img
             className="rounded-full lg:w-40 lg:h-40"

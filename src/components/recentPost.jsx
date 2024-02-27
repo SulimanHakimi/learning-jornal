@@ -13,7 +13,7 @@ function RecentPost() {
   return (
     <>
       <Nav />
-      <div className="sm:px-6 lg:px-20 h-fit py-20 gap-10 flex flex-col justify-center items-center">
+      <div className="sm:px-6 dark:bg-gray-700 dark:text-gray-100 lg:px-20 h-fit py-20 gap-10 flex flex-col justify-center items-center">
         <div className="lg:px-28 sm:px-5 md:px-16 flex flex-col gap-4">
           <span>{articale.date}</span>
           <h1 className="font-extrabold sm:text-xl md:text-2xl lg:text-3xl">

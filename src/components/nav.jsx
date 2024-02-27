@@ -1,10 +1,18 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { MdOutlineDarkMode } from "react-icons/md";
+import { CiLight } from "react-icons/ci";
 
 // import { Link } from "react-router-dom";
 function Nav() {
+  const [theme, setTheme] = useState("light");
+  function setThemeChange() {
+    document.documentElement.classList.toggle("dark");
+    theme === "dark" ? setTheme("light") : setTheme("dark");
+  }
   return (
     <>
-      <div className="sm:px-5 sm:text-sm shadow sm:font-bold lg:px-20 h-20 flex justify-between items-center">
+      <div className="sm:px-5 dark:bg-gray-700 dark:text-gray-100 text-[] sm:text-sm shadow sm:font-bold lg:px-20 h-20 flex justify-between items-center">
         <div className="flex lg:gap-2 sm:gap-1 items-center">
           <img
             className="w-10 h-10"
@@ -21,6 +29,15 @@ function Nav() {
           </li>
           <li className="cursor-pointer">
             <Link to={"/about-me"}>ABOUT ME</Link>
+          </li>
+          <li className="cursor-pointer">
+            <button onClick={setThemeChange}>
+              {theme === "dark" ? (
+                <CiLight size={30} />
+              ) : (
+                <MdOutlineDarkMode size={30} />
+              )}
+            </button>
           </li>
         </ul>
       </div>
