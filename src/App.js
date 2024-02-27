@@ -1,5 +1,6 @@
 import AboutMe from "./components/pages/aboutMe";
 import HomePage from "./components/pages/homePage";
+import LoginFigma from "./components/pages/loginFigma";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from "./components/notFound";
 import RecentPost from "./components/recentPost";
@@ -11,9 +12,10 @@ function App() {
         <Routes>
           <Route>
           <Route path="/" element={<HomePage />} />
+            <Route path="/admin" element={<LoginFigma />} />
             <Route path="/about-me" element={<AboutMe />} />
-            <Route path="*" element={<NotFound />} />
             <Route path="/card/:id" element={<RecentPost/>} />
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>
