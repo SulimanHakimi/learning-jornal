@@ -2,6 +2,7 @@ import React from "react";
 import StayComm from "./stayComm";
 import article from "./artiData";
 import { useState, useEffect } from "react";
+import Post from "./post";
 import { useParams } from "react-router-dom";
 import Nav from "./nav";
 import Footer from "./footer";
@@ -13,7 +14,7 @@ function RecentPost() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <div className="max-h-screen">
       <Nav />
       <div className="sm:px-6 dark:bg-gray-800 dark:text-gray-100 lg:px-20 py-20 gap-10 flex flex-col justify-between items-center">
         <div className="lg:px-28 sm:px-0 md:px-16 flex flex-col gap-4">
@@ -30,8 +31,9 @@ function RecentPost() {
         />
         <StayComm />
       </div>
+      <Post/>
       <Footer />
-    </>
+    </div>
   );
 }
 
