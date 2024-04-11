@@ -2,7 +2,7 @@ import React from "react";
 
 function StayComm() {
   return (
-    <div className="lg:px-28 sm:px-0 md:px-16 flex gap-3 flex-col">
+    <div className="lg:px-28 sm:px-4 md:px-16 flex gap-3 flex-col">
       <h1 className="font-extrabold sm:text-xl md:text-2xl lg:text-3xl">
         How I stay committed to learning
       </h1>
