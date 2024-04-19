@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Live Demo
-[https://responsive-app-react.vercel.app/]
+[https://learning-jornal.vercel.app/]
 ## Available Scripts
 
 In the project directory, you can run:
