@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern":
-          "url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg')",
+          "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHJZGyPZbwBxHMqcQPndByYy4EGG-4uaITtA&s')",
       },
     },
   },

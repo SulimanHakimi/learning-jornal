@@ -1,4 +1,3 @@
-import StayComm from "./stayComm";
 
 function About() {
   return (
@@ -23,7 +22,6 @@ function About() {
             </p>
           </div>
         </div>
-        <StayComm />
       </div>
     </>
   );

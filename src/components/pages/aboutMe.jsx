@@ -1,12 +1,12 @@
-import Nav from "../nav"
-import About from "../about"
-import Post from "../post"
-import Footer from "../footer"
+import Nav from "../ui/nav";
+import About from "../catagory";
+import Post from "../posts/post";
+import Footer from "../ui/footer";
 
 function AboutMe() {
   return (
     <div>
-      <Nav/>
+      <Nav />
       <About />
       <Post />
       <Footer />

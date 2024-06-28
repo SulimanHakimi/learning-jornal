@@ -16,7 +16,7 @@ function Nav() {
         <div className="flex items-center">
        
           <h1 className="sm:text-sm md:text-lg sm:font-bold lg:text-2xl  lg:font-bold">
-            My learning journal
+            Hakimi News
           </h1>
         </div>
         <ul className="flex md:gap-7 lg:gap-10 items-center lg:text-base  sm:font-semibold sm:text-[12px] sm:gap-3">
@@ -24,7 +24,7 @@ function Nav() {
             <Link to={"/"}>HOME</Link>
           </li>
           <li className="cursor-pointer ">
-            <Link to={"/about-me"}>ABOUT ME</Link>
+            <Link to={"/news"}>News</Link>
           </li>
           <li className="cursor-pointer ">
             <button onClick={setThemeChange}>
